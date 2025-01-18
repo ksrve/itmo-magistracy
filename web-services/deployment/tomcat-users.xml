@@ -1,0 +1,6 @@
+<tomcat-users>
+    <role rolename="tomcat"/>
+    <role rolename="uddiadmin"/>
+    <user username="uddiadmin" password="da_password1"
+        roles="uddiadmin,tomcat,manager" />
+</tomcat-users>
